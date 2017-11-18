@@ -1,0 +1,199 @@
+/**{
+	margin: ;
+	padding: ;
+}
+*/
+#mainbody{
+	height: 806px;
+	width: 970px;
+	background-color: #265175;
+	font-family: "Arial";
+}
+#header{
+	width: 100%;
+}
+
+#pythonParent{
+	text-align: left;
+	width: 50%;
+	display: inline-block;
+}
+#pythonImage{
+	width: 299px;
+	height: 88px;
+	margin-left: 36px;
+	margin-top: 24px;
+}
+#searchbarParent{
+	margin-top: 15px;
+	padding-right: 5%;
+	display: inline-block;
+	width: 44%;
+	text-align: right;
+	vertical-align: top;
+	color: white;
+	font-size: 75%;
+}
+.textSizeChange{
+	color: yellow;
+	text-decoration: underline; 
+}
+#searchBar{
+	background-color: #444444;
+	height: 45px;
+	width: 60%;
+	margin-left: 40%;
+	margin-top: 5px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px black;
+	padding: 10px 30px 0px 0px;
+	vertical-align: top;
+}
+input[type=text] {
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px inset #ccc;
+    font-size: 13px;
+    background-position: 10px 10px; 
+    padding: 6px 15px 6px 15px;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.searchButton{
+    background-color: #265175;
+    border: 2px outset #ccc;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 7px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+#aboutBarParent{
+	width: 100%;
+	text-align: center;
+}
+
+#aboutBar{
+	width: 80%;
+	height: 54px;
+	background-color: #3b78ad;
+	margin-right: 100px;
+	margin-left: 100px;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 10px;
+	text-align: left;
+}
+.aboutBar{
+	display: inline-block;
+	margin-left: 45px;
+	color: white;
+	margin-top: 15px;
+	font-size: 100%;
+	font-weight: bold;
+}
+#mainContent{
+	width: 100%;
+}
+#navBar{
+	display: inline-block;
+	width: 30%;
+	margin-left: 25px;
+	text-align: center;
+	list-style-position: inside;
+	text-decoration: underline;
+	font-size: 80%;
+	font-weight: bold;
+	color: white;
+	line-height: 175%;
+	margin-top: 35px;
+}
+#introText{
+	width: 40%;
+	display: inline-block;
+	word-break: normal;
+	vertical-align: top;
+	margin-top: 25px;
+	text-align: center;
+}
+.introText{
+	color: white;
+	font-size: 70%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+#zenText{
+	color: yellow;
+	font-style: italic bold;
+	text-align: center;
+	line-height: 25px;
+}
+#zenTitle{
+	margin-bottom: 15px;
+}
+
+#contentRow2{
+	padding-top: 10px;
+	background-color: white;
+	width: 100%;
+	height: 225px;
+	text-align: left;
+}
+
+.columnTopBorder{
+	border-top: 3px solid #75a8d3;
+	width: 35%;
+	height: 70%;
+	margin-left: 10%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#row2Title{
+	color: black;
+	font-size: 110%;
+}
+
+#gettingStartedparagraph{
+	width: 80%;
+	font-size: 75%;
+	margin-left: 10%;
+}
+
+#gettingStartedList{
+	list-style-position: outside;
+	font-size: 80%;
+	word-break: normal;
+	width: 70%;
+	margin-left: 7%;
+	margin-top: 1px;
+}
+#wrapped{
+	word-break: normal;
+	width: 80%;
+	padding-left: 10%;
+}
+
+#bottomRow{
+	text-align: center;
+	font-size: 125%;
+	height: 75px;
+	padding-top: 35px;
+	background-color: #265175;
+}
+.bottomRow{
+	margin-top: 25px;
+	margin-left: 10%;
+	color: #75a8d3;
+}
+
+.lightBlueText{
+	color: #75a8d3;
+}
